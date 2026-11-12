@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.HomePanel">
+  <grid id="83cf2" binding="root" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="14" vgap="14">
+    <margin top="20" left="24" bottom="20" right="24"/>
+    <constraints>
+      <xy x="20" y="20" width="900" height="620"/>
+    </constraints>
+    <properties>
+      <background color="-788740"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="eda14" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-788740"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9f4d3" class="javax.swing.JLabel" binding="lblTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="26" style="1"/>
+              <foreground color="-14796178"/>
+              <text value="Trang chủ"/>
+            </properties>
+          </component>
+          <component id="eb5b5" class="javax.swing.JLabel" binding="lblSubtitle">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="13" style="0"/>
+              <foreground color="-10193781"/>
+              <text value="Tổng quan hoạt động gửi email của bạn"/>
+            </properties>
+          </component>
+          <component id="fc991" class="javax.swing.JLabel" binding="lblStatus">
+            <constraints>
+              <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2294553"/>
+              <font name="Segoe UI" size="13" style="1"/>
+              <foreground color="-15293622"/>
+              <opaque value="true"/>
+              <text value="●  Sẵn sàng"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d7fde" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="16" vgap="16">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-788740"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="8734d" binding="pnlSent" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+            <margin top="14" left="16" bottom="14" right="16"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="120" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1510659"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="83ab4" class="javax.swing.JLabel" binding="lblSentNum">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="34" style="1"/>
+                  <foreground color="-14326805"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="9201e" class="javax.swing.JLabel" binding="lblSentText">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="14" style="0"/>
+                  <foreground color="-10193781"/>
+                  <text value="Đã gửi"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="eae44" binding="pnlSuccess" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+            <margin top="14" left="16" bottom="14" right="16"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="120" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1509138"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a65ed" class="javax.swing.JLabel" binding="lblSuccessNum">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="34" style="1"/>
+                  <foreground color="-15293622"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="409d6" class="javax.swing.JLabel" binding="lblSuccessText">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="14" style="0"/>
+                  <foreground color="-10193781"/>
+                  <text value="Thành công"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="3f45e" binding="pnlFail" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+            <margin top="14" left="16" bottom="14" right="16"/>
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="120" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-136984"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ddcc6" class="javax.swing.JLabel" binding="lblFailNum">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="34" style="1"/>
+                  <foreground color="-2349530"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="930c7" class="javax.swing.JLabel" binding="lblFailText">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="14" style="0"/>
+                  <foreground color="-10193781"/>
+                  <text value="Thất bại"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="89cb9" binding="pnlPending" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+            <margin top="14" left="16" bottom="14" right="16"/>
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="120" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-68634"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b13ff" class="javax.swing.JLabel" binding="lblPendingNum">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="34" style="1"/>
+                  <foreground color="-2525434"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="ad2c6" class="javax.swing.JLabel" binding="lblPendingText">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="14" style="0"/>
+                  <foreground color="-10193781"/>
+                  <text value="Đang chờ"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="db008" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="16" vgap="16">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-788740"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="3fa91" binding="pnlRecent" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+            <margin top="16" left="16" bottom="16" right="16"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="28187" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="4" vgap="4">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8253e" class="javax.swing.JLabel" binding="lblRecentTitle">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Segoe UI" size="16" style="1"/>
+                      <foreground color="-14800581"/>
+                      <text value="Email gần đây"/>
+                    </properties>
+                  </component>
+                  <hspacer id="5dabb">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="344ca" class="javax.swing.JButton" binding="btnViewAll">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="false"/>
+                      <focusPainted value="false"/>
+                      <font name="Segoe UI" size="14" style="0"/>
+                      <foreground color="-14326805"/>
+                      <text value="Xem tất cả  →"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="27362">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="400" height="150"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="99e7d" class="javax.swing.JTable" binding="tblRecent">
+                    <constraints/>
+                    <properties>
+                      <font name="Segoe UI" size="13" style="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="df44d" binding="pnlPromo" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+            <margin top="16" left="16" bottom="16" right="16"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="240" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1774083"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <vspacer id="f3eff">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="c1852" class="javax.swing.JLabel" binding="lblPromoTitle">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="20" style="1"/>
+                  <foreground color="-14796178"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="MailSender"/>
+                </properties>
+              </component>
+              <component id="b26b7" class="javax.swing.JLabel" binding="lblPromoSub">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="13" style="0"/>
+                  <foreground color="-10193781"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Gửi email dễ dàng hơn!"/>
+                </properties>
+              </component>
+              <vspacer id="1ab8a">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

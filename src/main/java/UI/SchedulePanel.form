@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.SchedulePanel">
+  <grid id="bf557" binding="root" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="14" vgap="14">
+    <margin top="20" left="24" bottom="20" right="24"/>
+    <constraints><xy x="20" y="20" width="900" height="620"/></constraints>
+    <properties>
+      <background color="-788740"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1023b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"></grid></constraints>
+        <properties>
+          <background color="-788740"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="46a80" class="javax.swing.JLabel" binding="lblTitle">
+            <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"></grid></constraints>
+            <properties>
+              <text value="Hẹn giờ gửi"/>
+              <font name="Segoe UI" size="26" style="1"/>
+              <foreground color="-14796178"/>
+            </properties>
+          </component>
+          <component id="45b00" class="javax.swing.JLabel" binding="lblSubtitle">
+            <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"></grid></constraints>
+            <properties>
+              <text value="Lên lịch gửi email vào thời điểm mong muốn"/>
+              <font name="Segoe UI" size="13" style="0"/>
+              <foreground color="-10193781"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="fd52a" binding="cardScheduleForm" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="12" vgap="12">
+        <margin top="20" left="20" bottom="20" right="20"/>
+        <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"></grid></constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f9079" class="javax.swing.JLabel">
+            <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"></grid></constraints>
+            <properties>
+              <text value="Chọn email:"/>
+              <font name="Segoe UI" size="14" style="0"/>
+              <foreground color="-14800581"/>
+            </properties>
+          </component>
+          <component id="1d650" class="javax.swing.JComboBox" binding="cboEmail">
+            <constraints><grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="150" height="-1"/></grid></constraints>
+            <properties>
+              <font name="Segoe UI" size="14" style="0"/>
+              <model><item value="Soạn email mới"/><item value="Khuyến mãi tháng 11"/><item value="Thông báo hệ thống"/></model>
+            </properties>
+          </component>
+          <component id="88511" class="javax.swing.JButton" binding="btnSchedule">
+            <constraints><grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"></grid></constraints>
+            <properties>
+              <text value="Lên lịch gửi"/>
+              <font name="Segoe UI" size="14" style="1"/>
+            </properties>
+          </component>
+          <component id="701e5" class="javax.swing.JLabel">
+            <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"></grid></constraints>
+            <properties>
+              <text value="Ngày gửi:"/>
+              <font name="Segoe UI" size="14" style="0"/>
+              <foreground color="-14800581"/>
+            </properties>
+          </component>
+          <component id="c57a6" class="javax.swing.JSpinner" binding="spnDate">
+            <constraints><grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="150" height="-1"/></grid></constraints>
+            <properties>
+              <font name="Segoe UI" size="14" style="0"/>
+            </properties>
+          </component>
+          <component id="75bd9" class="javax.swing.JLabel">
+            <constraints><grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"></grid></constraints>
+            <properties>
+              <text value="Giờ gửi:"/>
+              <font name="Segoe UI" size="14" style="0"/>
+              <foreground color="-14800581"/>
+            </properties>
+          </component>
+          <component id="7b777" class="javax.swing.JSpinner" binding="spnTime">
+            <constraints><grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="150" height="-1"/></grid></constraints>
+            <properties>
+              <font name="Segoe UI" size="14" style="0"/>
+            </properties>
+          </component>
+          <component id="22b2a" class="javax.swing.JLabel">
+            <constraints><grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"></grid></constraints>
+            <properties>
+              <text value="Mức độ ưu tiên:"/>
+              <font name="Segoe UI" size="14" style="0"/>
+              <foreground color="-14800581"/>
+            </properties>
+          </component>
+          <component id="a0f53" class="javax.swing.JComboBox" binding="cboPriority">
+            <constraints><grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="150" height="-1"/></grid></constraints>
+            <properties>
+              <font name="Segoe UI" size="14" style="0"/>
+              <model><item value="Thấp"/><item value="Bình thường"/><item value="Cao"/></model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b123f" binding="cardScheduleTable" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+        <margin top="16" left="16" bottom="16" right="16"/>
+        <constraints><grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"></grid></constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="42d03" class="javax.swing.JLabel">
+            <constraints><grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"></grid></constraints>
+            <properties>
+              <text value="Danh sách lịch gửi"/>
+              <font name="Segoe UI" size="16" style="1"/>
+              <foreground color="-14800581"/>
+            </properties>
+          </component>
+          <scrollpane id="d74c7">
+            <constraints><grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"><preferred-size width="400" height="160"/></grid></constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bcc6d" class="javax.swing.JTable" binding="tblSchedule">
+                <constraints/>
+                <properties>
+                  <font name="Segoe UI" size="13" style="0"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="55100" class="javax.swing.JButton" binding="btnCancelSchedule">
+            <constraints><grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"></grid></constraints>
+            <properties>
+              <text value="Hủy lịch đã chọn"/>
+              <font name="Segoe UI" size="14" style="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
